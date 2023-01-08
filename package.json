@@ -4,13 +4,29 @@
   "source": "src/index.ts",
   "main": "dist/main.js",
   "module": "dist/module.js",
+  "types": "dist/types.d.ts",
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build"
   },
   "devDependencies": {
+    "@parcel/config-default": "^2.8.2",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
     "parcel": "latest",
     "postcss": "^8.4.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "tailwindcss": "^3.2.4"
+  },
+  "peerDependencies": {
+    "@parcel/core": "^2.8.2",
+    "@parcel/packager-ts": "^2.8.2",
+    "@parcel/transformer-typescript-tsc": "^2.8.2",
+    "@parcel/transformer-typescript-types": "^2.8.2",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
