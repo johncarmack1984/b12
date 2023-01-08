@@ -1,6 +1,7 @@
 {
   "name": "chaos-components",
   "version": "0.0.1",
+  "description": "Chaos Components is a React component library built using Tailwind, TypeScript, and Parcel.",
   "source": "src/index.ts",
   "main": "dist/main.js",
   "module": "dist/module.js",
@@ -28,5 +29,17 @@
     "@types/react-dom": "^18.0.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johncarmack1984/chaos-components.git"
+  },
+  "keywords": ["react", "component", "tailwind", "parcel", "typescript"],
+
+  "author": "John Carmack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johncarmack1984/chaos-components/issues"
+  },
+  "homepage": "https://github.com/johncarmack1984/chaos-components#readme"
 }
