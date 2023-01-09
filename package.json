@@ -1,6 +1,6 @@
 {
   "name": "@vegify/b12",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "B12 is a React component library built using Tailwind, TypeScript, and Parcel.",
   "source": "src/index.ts",
   "main": "dist/main.js",
