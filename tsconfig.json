@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
-    "paths": {
-      "@/*": ["./*"]
-    },
     "jsx": "react-jsx",
-    "isolatedModules": true
+    "isolatedModules": true,
+    "lib": ["es2022"],
+    "paths": {
+      "@/*": ["./src"]
+    }
   }
 }
