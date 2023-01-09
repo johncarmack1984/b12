@@ -9,6 +9,5 @@ export function Button({
   children: ReactNode | string;
   className: string;
 }) {
-  const ButtonEl = href ? "a" : "button";
   return <button className={className}>{children}</button>;
 }
