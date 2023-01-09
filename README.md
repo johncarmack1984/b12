@@ -1,3 +1,3 @@
-# Chaos Components
+# B12
 
-Chaos Components is a React component library built using Tailwind, TypeScript, and Parcel.
+B12 is a React component library built using Tailwind, TypeScript, and Parcel.
