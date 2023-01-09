@@ -8,7 +8,10 @@
   "types": "dist/types.d.ts",
   "scripts": {
     "watch": "parcel watch",
-    "build": "parcel build"
+    "build": "parcel build",
+    "lint": "eslint",
+    "check": "tsc --noEmit",
+    "ci": "pnpm build && pnpm lint && pnpm check"
   },
   "devDependencies": {
     "@parcel/config-default": "^2.8.2",
@@ -18,15 +21,27 @@
     "@parcel/transformer-typescript-types": "^2.8.2",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.31.0",
+    "eslint-plugin-tailwindcss": "^3.8.0",
     "parcel": "latest",
+    "postcss": "^8.4.21",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.2.4",
+    "prettier": "^2.8.2",
+    "prettier-plugin-tailwindcss": "^0.2.1",
+    "typescript": "^4.9.4"
   },
   "peerDependencies": {
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "@parcel/transformer-css": {
+    "dashedIndents": true,
+    "cssModules": true
   },
   "repository": {
     "type": "git",
