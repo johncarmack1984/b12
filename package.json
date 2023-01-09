@@ -1,7 +1,7 @@
 {
-  "name": "chaos-components",
+  "name": "@vegify/b12",
   "version": "0.0.1",
-  "description": "Chaos Components is a React component library built using Tailwind, TypeScript, and Parcel.",
+  "description": "B12 is a React component library built using Tailwind, TypeScript, and Parcel.",
   "source": "src/index.ts",
   "main": "dist/main.js",
   "module": "dist/module.js",
@@ -38,22 +38,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johncarmack1984/chaos-components.git"
+    "url": "git+https://github.com/johncarmack1984/b12.git"
   },
-  "keywords": [
-    "react",
-    "component",
-    "tailwind",
-    "parcel",
-    "typescript"
-  ],
+  "keywords": ["react", "component", "tailwind", "parcel", "typescript"],
   "author": "John Carmack",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johncarmack1984/chaos-components/issues"
+    "url": "https://github.com/johncarmack1984/b12/issues"
   },
-  "homepage": "https://github.com/johncarmack1984/chaos-components#readme",
-  "dependencies": {
-    "@parcel/optimizer-css": "^2.8.2"
-  }
+  "homepage": "https://github.com/johncarmack1984/b12#readme"
 }
