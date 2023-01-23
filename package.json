@@ -1,6 +1,6 @@
 {
   "name": "@vegify/b12",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "John Carmack",
   "license": "ISC",
   "description": "B12 is a React component library built using SWC, TypeScript, and Rollup.",
