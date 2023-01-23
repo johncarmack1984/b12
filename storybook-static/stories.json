@@ -1,0 +1,1 @@
+{"v":3,"stories":{"card--generic":{"id":"card--generic","title":"Card","name":"Generic","importPath":"./src/components/Card/Card.stories.tsx","tags":["story"],"kind":"Card","story":"Generic","parameters":{"__id":"card--generic","docsOnly":false,"fileName":"./src/components/Card/Card.stories.tsx"}}}}

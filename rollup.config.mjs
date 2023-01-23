@@ -1,4 +1,5 @@
 import dts from "rollup-plugin-dts";
+import eslint from "@rollup/plugin-eslint";
 import { swc, defineRollupSwcOption } from "rollup-plugin-swc3";
 /** @type {import('rollup-plugin-swc3').PluginOptions} */
 const swcPluginConfig = {
@@ -11,7 +12,7 @@ const swcPluginConfig = {
 const config = [
   {
     input: "src/index.ts",
-    external: ["react/jsx-runtime"],
+    external: ["react", "react/jsx-runtime", "clsx"],
     output: [
       {
         file: "dist/main.js",
@@ -19,7 +20,9 @@ const config = [
         sourcemap: true,
         name: "B12-umd",
         globals: {
+          react: "react",
           "react/jsx-runtime": "jsxRuntime",
+          clsx: "clsx",
         },
       },
       {
@@ -29,7 +32,7 @@ const config = [
         name: "B12-esm",
       },
     ],
-    plugins: [swc(defineRollupSwcOption(swcPluginConfig))],
+    plugins: [eslint(), swc(defineRollupSwcOption(swcPluginConfig))],
     watch: {
       include: ["src/**", "rollup.config.js", "package.json", "tsconfig.json"],
       exclue: ["node_modules/**"],

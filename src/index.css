@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("/public/fonts/AvenirNextLTPro-Bold/font.woff2") format("woff2"),
+    url("/public/fonts/AvenirNextLTPro-Bold/font.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("/public/fonts/AvenirNextLTPro-BoldIt/font.woff2") format("woff2"),
+    url("/public/fonts/AvenirNextLTPro-BoldIt/font.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("/public/fonts/AvenirNextLTPro-It/font.woff2") format("woff2"),
+    url("/public/fonts/AvenirNextLTPro-It/font.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("/public/fonts/AvenirNextLTPro-Light/font.woff2") format("woff2"),
+    url("/public/fonts/AvenirNextLTPro-Light/font.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("/public/fonts/AvenirNextLTPro-LightIt/font.woff2") format("woff2"),
+    url("/public/fonts/AvenirNextLTPro-LightIt/font.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("/public/fonts/AvenirNextLTPro-Medium/font.woff2") format("woff2"),
+    url("/public/fonts/AvenirNextLTPro-Medium/font.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("/public/fonts/AvenirNextLTPro-MediumIt/font.woff2") format("woff2"),
+    url("/public/fonts/AvenirNextLTPro-MediumIt/font.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir Next LT Pro";
+  src: url("/public/fonts/AvenirNextLTPro-Regular/font.woff2") format("woff2"),
+    url("/public/fonts/AvenirNextLTPro-Regular/font.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Adelle";
+  src: url("/public/fonts/Adelle_Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Adelle";
+  src: url("/public/fonts/Adelle_BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Adelle";
+  src: url("/public/fonts/Adelle_ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Adelle";
+  src: url("/public/fonts/Adelle_ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Adelle";
+  src: url("/public/fonts/Adelle_Heavy.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Adelle";
+  src: url("/public/fonts/Adelle_HeavyItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Adelle";
+  src: url("/public/fonts/Adelle_Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Adelle";
+  src: url("/public/fonts/Adelle_Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Adelle";
+  src: url("/public/fonts/Adelle_LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Adelle";
+  src: url("/public/fonts/Adelle_Reg.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Adelle";
+  src: url("/public/fonts/Adelle_Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Adelle";
+  src: url("/public/fonts/Adelle_SemiboldItalic.woff2") format("woff2");
+  font-weight: 600;
+  font-style: italic;
+}
