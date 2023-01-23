@@ -16,7 +16,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: currentColor;
+  border-color: #e5e7eb;
   /* 2 */
 }
 
@@ -600,18 +600,42 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.bg-gray-light {
+.bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 241 241 / var(--tw-bg-opacity));
-}
-
-.bg-\[rgba\(0\2c 0\2c 0\2c 0\.4\)\] {
-  background-color: rgba(0,0,0,0.4);
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900\/\[0\.6\] {
+  background-color: rgb(43 43 43 / 0.6);
+}
+
+.bg-gray-900\/\[1\] {
+  background-color: rgb(43 43 43 / 1);
+}
+
+.bg-gray-900\/\[0\.9\] {
+  background-color: rgb(43 43 43 / 0.9);
+}
+
+.bg-gray-900\/\[0\.99\] {
+  background-color: rgb(43 43 43 / 0.99);
+}
+
+.bg-gray-900\/\[0\.4\] {
+  background-color: rgb(43 43 43 / 0.4);
+}
+
+.bg-gray-900\/\[0\.7\] {
+  background-color: rgb(43 43 43 / 0.7);
+}
+
+.bg-gray-900\/70 {
+  background-color: rgb(43 43 43 / 0.7);
 }
 
 .object-cover {
@@ -695,8 +719,8 @@ video {
 @font-face {
   font-family: "Avenir Next LT Pro";
 
-  src: url("/public/fonts/AvenirNextLTPro-Bold/font.woff2") format("woff2"),
-    url("/public/fonts/AvenirNextLTPro-Bold/font.woff") format("woff");
+  src: url("/fonts/AvenirNextLTPro-Bold/font.woff2") format("woff2"),
+    url("/fonts/AvenirNextLTPro-Bold/font.woff") format("woff");
 
   font-weight: 700;
 
@@ -706,8 +730,8 @@ video {
 @font-face {
   font-family: "Avenir Next LT Pro";
 
-  src: url("/public/fonts/AvenirNextLTPro-BoldIt/font.woff2") format("woff2"),
-    url("/public/fonts/AvenirNextLTPro-BoldIt/font.woff") format("woff");
+  src: url("/fonts/AvenirNextLTPro-BoldIt/font.woff2") format("woff2"),
+    url("/fonts/AvenirNextLTPro-BoldIt/font.woff") format("woff");
 
   font-weight: 700;
 
@@ -717,8 +741,8 @@ video {
 @font-face {
   font-family: "Avenir Next LT Pro";
 
-  src: url("/public/fonts/AvenirNextLTPro-It/font.woff2") format("woff2"),
-    url("/public/fonts/AvenirNextLTPro-It/font.woff") format("woff");
+  src: url("/fonts/AvenirNextLTPro-It/font.woff2") format("woff2"),
+    url("/fonts/AvenirNextLTPro-It/font.woff") format("woff");
 
   font-weight: 400;
 
@@ -728,8 +752,8 @@ video {
 @font-face {
   font-family: "Avenir Next LT Pro";
 
-  src: url("/public/fonts/AvenirNextLTPro-Light/font.woff2") format("woff2"),
-    url("/public/fonts/AvenirNextLTPro-Light/font.woff") format("woff");
+  src: url("/fonts/AvenirNextLTPro-Light/font.woff2") format("woff2"),
+    url("/fonts/AvenirNextLTPro-Light/font.woff") format("woff");
 
   font-weight: 300;
 
@@ -739,8 +763,8 @@ video {
 @font-face {
   font-family: "Avenir Next LT Pro";
 
-  src: url("/public/fonts/AvenirNextLTPro-LightIt/font.woff2") format("woff2"),
-    url("/public/fonts/AvenirNextLTPro-LightIt/font.woff") format("woff");
+  src: url("/fonts/AvenirNextLTPro-LightIt/font.woff2") format("woff2"),
+    url("/fonts/AvenirNextLTPro-LightIt/font.woff") format("woff");
 
   font-weight: 300;
 
@@ -750,8 +774,8 @@ video {
 @font-face {
   font-family: "Avenir Next LT Pro";
 
-  src: url("/public/fonts/AvenirNextLTPro-Medium/font.woff2") format("woff2"),
-    url("/public/fonts/AvenirNextLTPro-Medium/font.woff") format("woff");
+  src: url("/fonts/AvenirNextLTPro-Medium/font.woff2") format("woff2"),
+    url("/fonts/AvenirNextLTPro-Medium/font.woff") format("woff");
 
   font-weight: 500;
 
@@ -761,8 +785,8 @@ video {
 @font-face {
   font-family: "Avenir Next LT Pro";
 
-  src: url("/public/fonts/AvenirNextLTPro-MediumIt/font.woff2") format("woff2"),
-    url("/public/fonts/AvenirNextLTPro-MediumIt/font.woff") format("woff");
+  src: url("/fonts/AvenirNextLTPro-MediumIt/font.woff2") format("woff2"),
+    url("/fonts/AvenirNextLTPro-MediumIt/font.woff") format("woff");
 
   font-weight: 500;
 
@@ -772,8 +796,8 @@ video {
 @font-face {
   font-family: "Avenir Next LT Pro";
 
-  src: url("/public/fonts/AvenirNextLTPro-Regular/font.woff2") format("woff2"),
-    url("/public/fonts/AvenirNextLTPro-Regular/font.woff") format("woff");
+  src: url("/fonts/AvenirNextLTPro-Regular/font.woff2") format("woff2"),
+    url("/fonts/AvenirNextLTPro-Regular/font.woff") format("woff");
 
   font-weight: 400;
 
@@ -783,7 +807,7 @@ video {
 @font-face {
   font-family: "Adelle";
 
-  src: url("/public/fonts/Adelle_Bold.woff2") format("woff2");
+  src: url("/fonts/Adelle_Bold.woff2") format("woff2");
 
   font-weight: 700;
 
@@ -793,7 +817,7 @@ video {
 @font-face {
   font-family: "Adelle";
 
-  src: url("/public/fonts/Adelle_BoldItalic.woff2") format("woff2");
+  src: url("/fonts/Adelle_BoldItalic.woff2") format("woff2");
 
   font-weight: 700;
 
@@ -803,7 +827,7 @@ video {
 @font-face {
   font-family: "Adelle";
 
-  src: url("/public/fonts/Adelle_ExtraBold.woff2") format("woff2");
+  src: url("/fonts/Adelle_ExtraBold.woff2") format("woff2");
 
   font-weight: 800;
 
@@ -813,7 +837,7 @@ video {
 @font-face {
   font-family: "Adelle";
 
-  src: url("/public/fonts/Adelle_ExtraBoldItalic.woff2") format("woff2");
+  src: url("/fonts/Adelle_ExtraBoldItalic.woff2") format("woff2");
 
   font-weight: 800;
 
@@ -823,7 +847,7 @@ video {
 @font-face {
   font-family: "Adelle";
 
-  src: url("/public/fonts/Adelle_Heavy.woff2") format("woff2");
+  src: url("/fonts/Adelle_Heavy.woff2") format("woff2");
 
   font-weight: 900;
 
@@ -833,7 +857,7 @@ video {
 @font-face {
   font-family: "Adelle";
 
-  src: url("/public/fonts/Adelle_HeavyItalic.woff2") format("woff2");
+  src: url("/fonts/Adelle_HeavyItalic.woff2") format("woff2");
 
   font-weight: 900;
 
@@ -843,7 +867,7 @@ video {
 @font-face {
   font-family: "Adelle";
 
-  src: url("/public/fonts/Adelle_Italic.woff2") format("woff2");
+  src: url("/fonts/Adelle_Italic.woff2") format("woff2");
 
   font-weight: 400;
 
@@ -853,7 +877,7 @@ video {
 @font-face {
   font-family: "Adelle";
 
-  src: url("/public/fonts/Adelle_Light.woff2") format("woff2");
+  src: url("/fonts/Adelle_Light.woff2") format("woff2");
 
   font-weight: 300;
 
@@ -863,7 +887,7 @@ video {
 @font-face {
   font-family: "Adelle";
 
-  src: url("/public/fonts/Adelle_LightItalic.woff2") format("woff2");
+  src: url("/fonts/Adelle_LightItalic.woff2") format("woff2");
 
   font-weight: 300;
 
@@ -873,7 +897,7 @@ video {
 @font-face {
   font-family: "Adelle";
 
-  src: url("/public/fonts/Adelle_Reg.woff2") format("woff2");
+  src: url("/fonts/Adelle_Reg.woff2") format("woff2");
 
   font-weight: 400;
 
@@ -883,7 +907,7 @@ video {
 @font-face {
   font-family: "Adelle";
 
-  src: url("/public/fonts/Adelle_Semibold.woff2") format("woff2");
+  src: url("/fonts/Adelle_Semibold.woff2") format("woff2");
 
   font-weight: 600;
 
@@ -893,7 +917,7 @@ video {
 @font-face {
   font-family: "Adelle";
 
-  src: url("/public/fonts/Adelle_SemiboldItalic.woff2") format("woff2");
+  src: url("/fonts/Adelle_SemiboldItalic.woff2") format("woff2");
 
   font-weight: 600;
 
@@ -923,13 +947,20 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+@media (prefers-contrast: more) {
+  .contrast-more\:bg-gray-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(43 43 43 / var(--tw-bg-opacity));
+  }
+}
+
 @media (prefers-color-scheme: dark) {
-  .dark\:border-gray-light {
+  .dark\:border-gray-100 {
     --tw-border-opacity: 1;
     border-color: rgb(241 241 241 / var(--tw-border-opacity));
   }
 
-  .dark\:bg-gray {
+  .dark\:bg-gray-500 {
     --tw-bg-opacity: 1;
     background-color: rgb(138 139 138 / var(--tw-bg-opacity));
   }
@@ -939,7 +970,7 @@ video {
     background-color: rgb(43 43 43 / var(--tw-bg-opacity));
   }
 
-  .dark\:text-gray {
+  .dark\:text-gray-500 {
     --tw-text-opacity: 1;
     color: rgb(138 139 138 / var(--tw-text-opacity));
   }

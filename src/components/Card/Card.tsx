@@ -16,11 +16,11 @@ export const Card: FunctionComponent = ({
     src?: string;
     alt?: string;
   };
-}) => {
+}): JSX.Element => {
   return (
-    <div className="m-4 flex divide-x rounded-sm border-[1px] border-solid border-black transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-[1.035] hover:shadow-lg active:scale-[1.02] dark:border-gray-light dark:bg-gray dark:hover:border-white">
-      <div className="w-[110px] bg-gray-light text-center dark:text-gray sm:w-[175px]">
-        <div className="absolute rounded-br-sm bg-[rgba(0,0,0,0.4)] p-[0.15rem] text-xs capitalize text-white">
+    <div className="m-4 flex divide-x rounded-sm border-[1px] border-solid border-black transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-[1.035] hover:shadow-lg active:scale-[1.02] dark:border-gray-100 dark:bg-gray-500 dark:hover:border-white">
+      <div className="w-[110px] bg-gray-100 text-center dark:text-gray-500 sm:w-[175px]">
+        <div className="absolute rounded-br-sm bg-gray-900/70 p-[0.15rem] text-xs capitalize text-white contrast-more:bg-gray-900">
           {type}
         </div>
         <img
